@@ -1,0 +1,213 @@
+{
+  "kpi": {
+    "registros_totales": 32000,
+    "jovenes": 5933,
+    "pct_jovenes": 18.5,
+    "ocupados": 3521,
+    "desocupados": 704,
+    "inactivos": 1708,
+    "tasa_actividad": 71.2,
+    "tasa_desocupacion": 16.7,
+    "informalidad": 58.1,
+    "ipl_promedio": 1.72,
+    "ipl3_pct": 32.9,
+    "ingreso_promedio": 602077,
+    "ingreso_varon": 669520,
+    "ingreso_mujer": 516297,
+    "horas_promedio": 34.0,
+    "r_ise_ipl": -0.365,
+    "r_ise_p21": 0.386,
+    "r_ipl_p21": -0.446,
+    "r_horas_p21": 0.368,
+    "r_edad_p21": 0.112,
+    "ipl_mujer": 1.782,
+    "ipl_varon": 1.67,
+    "brecha_total": 0.112,
+    "region_mayor_brecha": "Patagonia",
+    "brecha_max": 0.424,
+    "region_mayor_ipl": "Noreste (NEA)",
+    "ipl_region_max": 2.04,
+    "ingreso_secund_incompleta": 412490,
+    "ingreso_superior_completo": 901173,
+    "brecha_ingresos_pct": 22.9,
+    "prima_superior_pct": 118.5
+  },
+  "corr": {
+    "Edad (CH06)": {
+      "Edad (CH06)": 1.0,
+      "Ingreso ocup. principal (P21)": 0.112,
+      "Horas semanales (PP3E_TOT)": 0.027,
+      "Precariedad laboral (IPL)": -0.051,
+      "Nivel socio-educativo (ISE)": 0.114
+    },
+    "Ingreso ocup. principal (P21)": {
+      "Edad (CH06)": 0.112,
+      "Ingreso ocup. principal (P21)": 1.0,
+      "Horas semanales (PP3E_TOT)": 0.368,
+      "Precariedad laboral (IPL)": -0.446,
+      "Nivel socio-educativo (ISE)": 0.386
+    },
+    "Horas semanales (PP3E_TOT)": {
+      "Edad (CH06)": 0.027,
+      "Ingreso ocup. principal (P21)": 0.368,
+      "Horas semanales (PP3E_TOT)": 1.0,
+      "Precariedad laboral (IPL)": -0.388,
+      "Nivel socio-educativo (ISE)": 0.172
+    },
+    "Precariedad laboral (IPL)": {
+      "Edad (CH06)": -0.051,
+      "Ingreso ocup. principal (P21)": -0.446,
+      "Horas semanales (PP3E_TOT)": -0.388,
+      "Precariedad laboral (IPL)": 1.0,
+      "Nivel socio-educativo (ISE)": -0.365
+    },
+    "Nivel socio-educativo (ISE)": {
+      "Edad (CH06)": 0.114,
+      "Ingreso ocup. principal (P21)": 0.386,
+      "Horas semanales (PP3E_TOT)": 0.172,
+      "Precariedad laboral (IPL)": -0.365,
+      "Nivel socio-educativo (ISE)": 1.0
+    }
+  },
+  "td_genero": {
+    "Gran Buenos Aires": {
+      "Varón": 1.479,
+      "Mujer": 1.715
+    },
+    "Pampeana": {
+      "Varón": 1.565,
+      "Mujer": 1.584
+    },
+    "Cuyo": {
+      "Varón": 1.926,
+      "Mujer": 1.834
+    },
+    "Noroeste (NOA)": {
+      "Varón": 1.885,
+      "Mujer": 1.99
+    },
+    "Noreste (NEA)": {
+      "Varón": 2.04,
+      "Mujer": 2.044
+    },
+    "Patagonia": {
+      "Varón": 1.471,
+      "Mujer": 1.895
+    },
+    "Total país": {
+      "Varón": 1.67,
+      "Mujer": 1.782
+    }
+  },
+  "brecha": {
+    "Gran Buenos Aires": 0.236,
+    "Pampeana": 0.019,
+    "Cuyo": -0.092,
+    "Noroeste (NOA)": 0.105,
+    "Noreste (NEA)": 0.004,
+    "Patagonia": 0.424,
+    "Total país": 0.112
+  },
+  "ingreso_educacion": [
+    {
+      "Código": 1,
+      "Nivel educativo": "Primaria incompleta",
+      "Ingreso promedio (P21)": 269000,
+      "Casos válidos": 68,
+      "IPL promedio": 2.65
+    },
+    {
+      "Código": 2,
+      "Nivel educativo": "Primaria completa",
+      "Ingreso promedio (P21)": 360200,
+      "Casos válidos": 150,
+      "IPL promedio": 2.44
+    },
+    {
+      "Código": 3,
+      "Nivel educativo": "Secundaria incompleta",
+      "Ingreso promedio (P21)": 412490,
+      "Casos válidos": 614,
+      "IPL promedio": 2.26
+    },
+    {
+      "Código": 4,
+      "Nivel educativo": "Secundaria completa",
+      "Ingreso promedio (P21)": 575791,
+      "Casos válidos": 1019,
+      "IPL promedio": 1.74
+    },
+    {
+      "Código": 5,
+      "Nivel educativo": "Superior incompleto",
+      "Ingreso promedio (P21)": 679623,
+      "Casos válidos": 869,
+      "IPL promedio": 1.45
+    },
+    {
+      "Código": 6,
+      "Nivel educativo": "Superior completo",
+      "Ingreso promedio (P21)": 901173,
+      "Casos válidos": 475,
+      "IPL promedio": 1.07
+    }
+  ],
+  "frecuencias": {
+    "IPL": {
+      "0": 602,
+      "1": 909,
+      "2": 815,
+      "3": 1140
+    },
+    "ISE": {
+      "0": 132,
+      "1": 1501,
+      "2": 1928,
+      "3": 2372
+    }
+  },
+  "diagnostico_nulos": [
+    {
+      "Variable": "P21",
+      "Celdas vacías (no corresponde)": 0,
+      "Código especial": "-9",
+      "Registros con código especial": 304,
+      "Válidos para análisis": 5629,
+      "% válidos sobre jóvenes": 94.9
+    },
+    {
+      "Variable": "TOT_P12",
+      "Celdas vacías (no corresponde)": 0,
+      "Código especial": "-9",
+      "Registros con código especial": 0,
+      "Válidos para análisis": 5933,
+      "% válidos sobre jóvenes": 100.0
+    },
+    {
+      "Variable": "PP3E_TOT",
+      "Celdas vacías (no corresponde)": 2412,
+      "Código especial": "999",
+      "Registros con código especial": 55,
+      "Válidos para análisis": 3466,
+      "% válidos sobre jóvenes": 58.4
+    },
+    {
+      "Variable": "PP07H",
+      "Celdas vacías (no corresponde)": 2412,
+      "Código especial": "—",
+      "Registros con código especial": 0,
+      "Válidos para análisis": 3521,
+      "% válidos sobre jóvenes": 59.3
+    },
+    {
+      "Variable": "PP07C",
+      "Celdas vacías (no corresponde)": 2412,
+      "Código especial": "—",
+      "Registros con código especial": 0,
+      "Válidos para análisis": 3521,
+      "% válidos sobre jóvenes": 59.3
+    }
+  ],
+  "fuente": "usu_individual_T125_SIMULADO.txt",
+  "generado": "2026-09-18"
+}
